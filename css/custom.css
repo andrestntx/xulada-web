@@ -74,6 +74,16 @@ button {
   background: #ffffff;
 }
 
+.cta-red-xulada {
+  background: #ed2f59;
+  color: #ffffff;
+}
+
+.cta-red-xulada:hover {
+  color: #ed2f59;
+  background: #ffffff;
+}
+
 #banner {
   background-size: cover;
 }
@@ -84,7 +94,7 @@ button {
 }
 
 #banner header img {
-  max-width: 80px;
+  max-width: 110px;
 }
 
 /********** feature (skew background) **********/
@@ -167,11 +177,17 @@ button {
 /********** Xulada **********/
 .xulada-services p {
   color: white;
+  font-size: 1.15em;
 }
 
 p.xulada-subtitle {
-  font-size: 1.5em;
+  font-size: 2em;
 }
+
+h1.xulada-title {
+  font-size: 4em;
+}
+
 /********** RWD **********/
 @media (max-width: 575px) {
   #banner h1 {
