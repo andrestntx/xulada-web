@@ -192,6 +192,10 @@ h1.xulada-title {
   padding: 0.5em 1em;
 }
 
+.premium h2.font-weight-bold {
+  font-weight: 400;
+}
+
 /********** RWD **********/
 @media (max-width: 575px) {
   #banner h1.xulada-title {
@@ -206,5 +210,10 @@ h1.xulada-title {
   .xulada-services p {
     font-size: 1em;
     text-align: left;
+  }
+
+  .premium h2.font-weight-bold {
+    font-weight: 300;
+    font-size: 2.4em !important;
   }
 }
